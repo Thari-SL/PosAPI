@@ -74,9 +74,10 @@ const updateStudent=(req,resp)=>{
 }
 //DELETE
 const deleteStudent=(req,resp)=>{
-    const regNum=req.params.regNum;
+   // const regNum=req.params.regNum;
+    regNum:req.headers.regNum
 
-    //const regNum = 34;
+    //const regNum = 'C-001';
     console.log(regNum)
 
     Student.deleteOne({ regNum: regNum })
