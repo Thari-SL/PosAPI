@@ -50,3 +50,4 @@ app.use('/api/v1/semester6Route',Semester6Route);
 app.use('/api/v1/semester7Route',Semester7Route);
 app.use('/api/v1/semester8Route',Semester8Route);
 app.use('/api/v1/semester9Route',Semester9Route);
+

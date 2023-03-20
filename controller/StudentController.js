@@ -74,9 +74,9 @@ const updateStudent=(req,resp)=>{
 }
 //DELETE
 const deleteStudent=(req,resp)=>{
-/*    const regNum=req.params.regNum;
+    const regNum=req.params.regNum;
 
-   // const regNum = req.params;
+    //const regNum = 34;
     console.log(regNum)
 
     Student.deleteOne({ regNum: regNum })
@@ -89,10 +89,10 @@ const deleteStudent=(req,resp)=>{
         })
         .catch(error => {
             resp.status(500).json(error);
-        });*/
+        });
 
 
-    Student.deleteOne({
+ /*   Student.deleteOne({
         regNum:req.headers.regNum
     }).then(result=>{
         if(result.deletedCount==0){
@@ -103,7 +103,7 @@ const deleteStudent=(req,resp)=>{
         }
     }).catch(error=>{
         resp.status(500).json(error);
-    })
+    })*/
 }
 
 //GET

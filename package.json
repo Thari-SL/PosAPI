@@ -15,5 +15,9 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.1"
+  },
+  "devDependencies": {
+    "jtest": "^0.0.1",
+    "supertest": "^6.3.3"
   }
 }
